@@ -1,0 +1,71 @@
+/* :root {
+    --space-gray: #262626;
+    --weathered-marble: #ACBFA4;
+    --cream-white: #ACBFA4;
+    --fire-orange: #FF7F11;
+    --spicy-red: #FF1B1C;
+} */
+
+.inventory-pg {
+  background-color: var(--rich-black);
+  color: white;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    opacity: 90%;
+    
+  }
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--space-gray);
+    
+  }
+   a {
+    color: var(--spicey-red)
+  }
+  .navbar {
+    background-color: var(--space-gray);
+    
+  }
+  .nav-btn {
+    color: var(--cream-white);
+    
+    
+  }
+  .inventory-list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--fire-orange);
+    padding: 5px;
+  }
+
+  .brand-logo{
+    animation-name: spinner;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+  .vinyl-info {
+    font-size: large;
+    color: var(--cream-white)
+  }
+
+  .text-info {
+    font-size: large;
+  }
+
+  .hr {
+    display: inline;
+    border: 1px solid var(--fire-orange);
+    width: 100%;
+
+  }
+  @keyframes spinner {
+    from { transform: rotate(360deg);}
+    to { transform: rotate(0deg);}
+  }
+  
